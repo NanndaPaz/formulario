@@ -1,0 +1,70 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="estilo.css">
+    <title>Caixa de Sugestão</title>
+</head>
+<body>
+    <section class="box">
+    <header>
+        <h1>Caixa de Sugestão</h1>
+        
+    </header>
+    <main>
+        <section class="box-main">
+            <p>Escreva aqui sua sugestão e preencha o formulário</p>
+       
+            <form action="https://www.devmedia.com.br/codigos/formularios/aula3/">
+                <textarea class="box-sugestao" id=""></textarea>
+                <div class="nome">
+                    <label>Nome:</label>
+                    <input placeholder="Digite seu nome completo" class="box-nome" type="text" name="nome" required/>
+                </div>
+                <div class="box-telefone">
+                    <label>Telefone:</label>
+                <input placeholder="(00)00000-0000" class="telefone" type="telefone" name="telefone" minlength="14" maxlength="14" required/>
+                </div>
+                <div class="box-data-nascimento">
+                    <label>Data Nasc:</label>
+                    <input class="data-nascimento" type="date" name="date" required/>
+                </div>
+                <div class="box-idade">
+                    <label>Idade:</label>
+                    <input type="number" name="idade" min="18" max="65" maxlength="2" required/>
+                </div>
+                <div class="box-email">
+                    <label>Email:</label>
+                    <input placeholder="exemplo@email.com" type="email" name="email" required/>
+                </div>
+                <div class="box-login">
+                    <label>Login:</label>
+                    <input type="text" name="login" minlength="8" maxlength="14" required/>
+                </div>
+                <div class="box-senha">
+                    <label>Senha:</label>
+                    <input type="password" name="senha" minlength="8" maxlength="8" required/>
+                </div>
+                <div class="box-vencimento">
+                    <label>Dia venc.</label>
+                    <input type="number" name="Vencimento" min="10" max="20" required/>
+                </div>
+                <div class="box-botao">
+                    <button type="submit">Enviar</button>
+                </div>
+                
+            </form>
+        </section>
+         
+    </main>
+    <footer>
+       
+            <p>Fernanda Paz &reg;.</p>
+        
+       
+    </footer>
+</section>
+
+</body>
+</html>

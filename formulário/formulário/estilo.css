@@ -1,0 +1,105 @@
+* {
+   
+   
+
+}
+
+.box{
+    box-sizing: border-box;
+   
+    position: absolute; /*serve para alinhar o elemento mo centro */
+            top: 50%;
+            left: 50%;
+            transform: translate(-50%, -50%);
+            width: 500px;
+            height: 670px;
+   border: 2px solid darkgray;
+   background-color: darkgray;
+  
+   
+    
+}
+
+header {
+   
+    padding: 2px;
+    text-align: center;
+    color: #fff;
+    font-size: 20px;
+   
+    
+   
+}
+
+.box-main {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    background-color: lightgray;
+   
+
+}
+
+.box-sugestao {
+    width: 400px;
+    height: 150px;
+    margin-bottom: 10px;
+    
+}
+
+.nome label{
+    
+    margin-right: 27px;
+}
+.box-telefone label{
+    margin-right: 10px;
+}
+
+.box-idade label{
+    margin-right: 30px;
+}
+
+.box-email label, .box-login label, .box-senha label {
+    margin-right: 28px;
+}
+
+.box-vencimento label {
+    margin-right: 10px;
+}
+
+
+.box-nome {
+    
+    margin-bottom: 10px;
+    width: 325px;
+}
+
+.box-telefone, .box-email, .box-data-nascimento, .box-idade, .box-login, .box-senha {
+    margin-bottom: 10px;
+    
+}
+.telefone {
+    width: 200px
+}
+label {
+    width: ;
+}
+
+.box-botao {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin: 30px;
+}
+
+
+footer {
+   
+    
+    
+    text-align: center;
+    color: #fff;
+   
+       
+}
+   
