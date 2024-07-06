@@ -1,0 +1,125 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="estilo.css">
+    <title>Caixa de Sugestão</title>
+</head>
+<body>
+    
+    <header>
+        <h1>Caixa de Sugestão</h1>
+        
+    </header>
+    <main>
+        <section class="box-main">
+            <p>Escreva aqui sua sugestão e preencha o formulário</p>
+       
+            <form action="https://www.devmedia.com.br/codigos/formularios/aula3/">
+                <textarea class="box-sugestao" id=""></textarea>
+                <fieldset>
+                    <legend>Dados pessoais:</legend>
+                    <div class="nome">
+                        <label>Nome:</label>
+                        <input class="input-nome" placeholder="Digite seu nome completo" class="box-nome" type="text" name="nome" required/>
+                    </div>
+                    <div class="box-telefone">
+                        <label>Telefone:</label>
+                    <input placeholder="(00)00000-0000" class="telefone" type="telefone" name="telefone" minlength="14" maxlength="14" required/>
+                    </div>
+                    <div class="box-data-nascimento">
+                        <label>Data Nasc:</label>
+                        <input class="data-nascimento" type="date" name="date" required/>
+                    </div>
+                    <div class="box-idade">
+                        <label>Idade:</label>
+                        <input type="number" name="idade" min="18" max="65" maxlength="2" required/>
+                    </div>
+                    <div class="box-genero">
+                        <label>Genero:</label>
+                        <input type="radio" id="checkbox-masculino" name="genero" value="masculino">
+                        <label for="checkbox-masculino">M</label>
+                        <input type="radio" id="checkbox-feminino" name="genero" value="feminino">
+                        <label for="checkbox-feminino">F</label>
+    
+                    </div>
+                    <div class="box-estado-civil">
+                        <label for="estado-civil">Est. civil:</label>
+                        <select name="estado civil" id="estado-civil" required>
+                            <option value="">--</option>
+                            <option value="solteiro">solteiro</option>
+                            <option value="casado">casado</option>
+                            <option value="viúvo">viúvo</option>
+                            <option value="divorciado">divorciado</option>
+                        </select>
+                    </div>
+                    <div class="box-email">
+                        <label>Email:</label>
+                        <input placeholder="exemplo@email.com" type="email" name="email" required/>
+                    </div>
+                </fieldset>
+                
+                <fieldset>
+                    <legend>Informações profissionais:</legend>
+                    <div class="box-linguagem">
+                        <label for="linguagem">Selecione aqui todas as linguagens e bibliotecas que já utilizou em sua carreira profissional:<br>
+                        </label>
+                        <div class="caixa-selecao">
+                            <select name="linguagem[]" size="10" multiple>
+                                <optgroup label="linguagens">
+                                    <option value="html">html</option>
+                                    <option value="css">css</option>
+                                    <option value="python">python</option>
+                                    <option value="javascript">javascript</option>
+                                    <option value="java">java</option>
+                                </optgroup>
+                                <optgroup label="bibliotecas">
+                                    <option value="react">react</option>
+                                    <option value="spring">spring</option>
+                                    <option value="pandas">pandas</option>
+        
+                                </optgroup>
+                            </select>
+                        </div>
+                       
+                    </div>
+                </fieldset>
+                <fieldset>
+                    <legend>Dados de acesso:</legend>
+                    <div class="box-login">
+                        <label>Login:</label>
+                        <input type="text" name="login" minlength="8" maxlength="14" required/>
+                    </div>
+                    <div class="box-senha">
+                        <label>Senha:</label>
+                        <input type="password" name="senha" minlength="8" maxlength="8" required/>
+                    </div>
+                    <div class="box-vencimento">
+                        <label>Dia venc.</label>
+                        <input type="number" name="Vencimento" min="10" max="20" required/>
+                    </div>
+                    
+                </fieldset>
+                
+                
+                
+                
+            </form>
+            <div class="box-botao">
+                <button type="submit">Enviar</button>
+            </div>    
+       
+         
+    </main>
+   
+
+    </section>
+    <footer>
+       
+        <p>Fernanda Paz &reg;.</p>  
+</footer>
+   
+
+</body>
+</html>
