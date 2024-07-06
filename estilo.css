@@ -1,0 +1,105 @@
+* {
+    margin-bottom: 3px;
+    padding: 0;
+}
+
+body {
+    
+    width: 50%;
+    height: 100%;
+    max-width: 700px;
+    margin: 40px auto;
+   
+    
+}
+header {
+    width: 100%;
+    height: 60px;
+    padding: 5px;
+    box-sizing: border-box;
+   
+    background-color: darkgray;
+    color: #fff;
+    font-size: 16px;
+    text-align: center;
+}
+main {
+    display: flex;
+    flex-direction: column;
+    width: 100%;
+   
+    padding-top: 15px;
+    padding-bottom: 15px;
+    
+    height: 100%;
+    background-color: lightgray;
+}
+p, textarea {
+    margin: 05px 15px;
+}
+
+textarea {
+    display: flex;
+    flex-direction: column;
+    width: 90%;
+    height: 100px;
+}
+
+.input-nome {
+    width: 60%;
+}
+
+    
+fieldset {
+    display: flex;
+    flex-direction: column;
+    padding: 10px 10px;
+    margin: 10px  15px ;
+}
+
+.caixa-selecao {
+         margin: 10px;
+         
+}
+
+optgroup  {
+    margin: 5px 10px;
+}
+.box-botao {
+   
+    padding: 10px;
+    text-align: center;
+    font-size: 16px;
+}
+
+button {
+    background-color: rgb(9, 243, 67);
+    color: #fff;
+    width: 100px;
+    padding: 5px;
+    border: rgb(9, 243, 67);
+    border-radius: 10%;
+    box-shadow: 3px 3px 5px rgba(0, 0, 0, 0.3);
+    cursor: pointer;
+}
+
+button:hover {
+    color: rgb(104, 102, 102);
+}
+
+
+    
+   
+footer {
+    width: 100%;
+    height: 60px;
+    bottom: 0;
+    padding: 20px;
+    box-sizing: border-box;
+    text-align: center;
+   background-color: darkgray;
+    color: #fff;
+    align-items: center;
+    
+   
+}
